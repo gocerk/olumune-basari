@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr_TR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banka hesabiniz</title>
+    <link rel="icon" href="https://icon-library.com/images/white-money-icon/white-money-icon-26.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        #quantity::-webkit-inner-spin-button, #quantity::-webkit-outer-spin-button{
+            -webkit-appearance: none;
+            -moz-appearance: textfield;
+        }
+    </style>
+</head>
+<body class="bg-secondary d-flex justify-content-center">
+        <div class="w-50 d-block align-items-center text-center">
+            <h1 class="mt-5">Hesabınıza gelmesini istediğiniz tutarı girin</h1>
+            
+            <div class="input-group">
+                <span class="input-group-text">$</span>
+                <input type="number" class="form-control" id="quantity">
+            </div>
+
+            <div class="timePicker d-flex mt-3">
+                <h3>Her</h3>
+                <select id="times" class="custom-select">
+                    <option value="* * * * *">1 Dakikada</option>
+                    <option value="*/30 * * * *">30 Dakikada</option>
+                    <option value="0 * * * *">1 Saatte</option>
+                    <option value="0 */2 * * *">2 Saatte</option>
+                </select>
+            </div>
+
+            <button id="sendButton" type="button" class="btn btn-primary btn-lg">Gönder</button>
+        </div>
+    <script src="./dist/main.js"></script>
+</body>
+</html>
