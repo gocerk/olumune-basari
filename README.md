@@ -11,5 +11,5 @@ Artık ```index.html``` dosyasına tıklayarak uygulamayı açabilirsiniz.
 
 
 #
-Bu proje Ölümüne Başarı programı için yapıldı.
+Ölümüne Başarı programı için yapıldı.
 https://youtube.com/playlist?list=PL_5OwRct_VCwa4LeA3qCHy_zzlRFBeLrY
