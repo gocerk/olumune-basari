@@ -5,10 +5,6 @@ let timePicker = document.getElementById('times');
 const CronJob = require('cron').CronJob;
 const img = require('./iscep.png');
 
-function showNotification(text) {
-   
-}
-
 (async () => {
     await window.Notification.requestPermission();
     
